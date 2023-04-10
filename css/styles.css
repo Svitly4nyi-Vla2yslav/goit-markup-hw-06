@@ -534,7 +534,6 @@ div .social-item {
   padding-top: 40px;
   padding-left: 32px;
   padding-right: 32px;
-  
 }
 .about a {
   text-decoration: none;
@@ -609,4 +608,27 @@ a > .focus:focus {
 .modal-close-btn:focus {
   background-color: var(--color-button-ocean);
   fill: white;
+}
+
+.container-form-modal {
+  padding: 72px 24px 24px;
+}
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-blue);
+}
+.modal-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.modal-textarea {
+  width: 100%;
+  resize: none;
+  height: 120px;
+  padding: 8px 16px;
 }
