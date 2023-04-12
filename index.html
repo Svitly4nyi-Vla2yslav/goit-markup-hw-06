@@ -413,18 +413,25 @@
         </div>
         <div class="subscribe-container">
           <form action="">
-            <label for="user-email">
-              <p class="subscribe-title">Subscribe</p></label
-            >
+            <label for="email"> <p class="subscribe-title">Subscribe</p></label>
             <input
+              id="email"
               type="email"
-              name="user-email"
+              name="email"
               placeholder="E-mail"
               class="subscribe-email"
               required
             />
             <button type="submit" class="subscribe-button">
-              <span class="subscribe-button-text">Subscribe</span>
+              <span class="subscribe-button-text"
+                >Subscribe<svg
+                  class="email-icon-subscribe"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#telegram"></use>
+                </svg>
+              </span>
             </button>
           </form>
         </div>
@@ -461,6 +468,7 @@
               <label for="user-tel"><p class="text-form-modal">Phone</p></label>
               <div class="input-container">
                 <input
+                  id="user-tel"
                   type="tel"
                   name="user-tel"
                   class="modal-input"
@@ -475,6 +483,7 @@
               >
               <div class="input-container">
                 <input
+                  id="user-email"
                   type="email"
                   name="user-email"
                   class="modal-input"
