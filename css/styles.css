@@ -446,10 +446,8 @@ div .social-item {
 .link-footer:is(:hover, :focus) {
   background-color: #31d0aa;
 }
-.subscribe-container {
+.subscribe-form{
   display: flex;
-  width: 453px;
-  height: 80px;
   margin-left: 80px;
 }
 .subscribe-title {
@@ -460,6 +458,7 @@ div .social-item {
   letter-spacing: 0.02em;
   color: #ffffff;
   padding-bottom: 16px;
+  margin-left: 80px;
 }
 .subscribe-email {
   background-color: transparent;
@@ -487,6 +486,8 @@ div .social-item {
   background: var(--color-button-iris);
   border-radius: 4px;
   padding: 8px 24px;
+  width: 165px;
+  height: 40px;
   border: none;
   box-shadow: none;
   transition-property: background-color;
